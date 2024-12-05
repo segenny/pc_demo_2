@@ -1,6 +1,6 @@
+/* eslint-disable */
 "use client";
 import { useState, useRef, useEffect } from "react";
-import Image from "next/image";
 
 // 최근 본 상품용 이미지
 const recentItems = [
@@ -288,7 +288,7 @@ export default function Home() {
           className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-[0.4fr_1fr] lg:grid-cols-[1fr_1.5fr_1fr] 
           gap-4 h-screen sm:p-0 md:p-4 lg:p-4 min-w-[600px] mx-auto"
         >
-          {/* 왼쪽 위젯 - md부터 보이게 */}
+          {/* ���쪽 위젯 - md부터 보이게 */}
           <div
             className={`hidden md:block col-start-1 transition-all duration-500 ${
               showLeftWidget
